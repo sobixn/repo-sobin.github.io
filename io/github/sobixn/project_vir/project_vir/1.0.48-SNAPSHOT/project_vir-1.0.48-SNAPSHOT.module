@@ -1,0 +1,149 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.sobixn.project_vir",
+    "module": "project_vir",
+    "version": "1.0.48-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "project_vir-1.0.48-SNAPSHOT.jar",
+          "url": "project_vir-1.0.48-SNAPSHOT.jar",
+          "size": 57743,
+          "sha512": "37f316f4a0b24e0d5b6063e17381f690d52c5f3117d4a8ebb82c905a44ec1f10157911ffcc76c65d8f2a54b6dd206f300ef43a76a57c9f4c16f186c3c03dc86b",
+          "sha256": "7ed9ad652de4345490b3a45a299f552ce8c824bafeacdb100ab53e05e56cd03f",
+          "sha1": "0c549d70ccc139558698e58ee8016ec6bb807059",
+          "md5": "1be8da909bdf408fc377e97a29c1fbd4"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8"
+        },
+        {
+          "group": "org.json",
+          "module": "json",
+          "version": {
+            "requires": "20240303"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-netty",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-jackson",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-cio",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-json",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-serialization",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.12.0"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "project_vir-1.0.48-SNAPSHOT.jar",
+          "url": "project_vir-1.0.48-SNAPSHOT.jar",
+          "size": 57743,
+          "sha512": "37f316f4a0b24e0d5b6063e17381f690d52c5f3117d4a8ebb82c905a44ec1f10157911ffcc76c65d8f2a54b6dd206f300ef43a76a57c9f4c16f186c3c03dc86b",
+          "sha256": "7ed9ad652de4345490b3a45a299f552ce8c824bafeacdb100ab53e05e56cd03f",
+          "sha1": "0c549d70ccc139558698e58ee8016ec6bb807059",
+          "md5": "1be8da909bdf408fc377e97a29c1fbd4"
+        }
+      ]
+    }
+  ]
+}

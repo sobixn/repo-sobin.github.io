@@ -1,0 +1,106 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.sobixn.api",
+    "module": "VunnyAPI",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "VunnyAPI-1.0.0.jar",
+          "url": "VunnyAPI-1.0.0.jar",
+          "size": 12864,
+          "sha512": "4db1e41e3c6e945f6eb1bdfcd658296c92a016c5d473900976d0a7df4998b822d5a8747f03eaad6eb7629c588cc4e8880ab896795e8cfa2254ce890a0df2eb0a",
+          "sha256": "81bfbafda89e5bf39f76e73624701e821f1640c667fa4c1b7323f4847cb4417b",
+          "sha1": "985e47afe67f10b1c336f694f396b72b9ad420c4",
+          "md5": "0cc46f68a81030dd1f40022cedf56e45"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8"
+        },
+        {
+          "group": "io.github.sobixn",
+          "module": "project_vir",
+          "version": {
+            "requires": "1.0.48-SNAPSHOT"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "VunnyAPI-1.0.0.jar",
+          "url": "VunnyAPI-1.0.0.jar",
+          "size": 12864,
+          "sha512": "4db1e41e3c6e945f6eb1bdfcd658296c92a016c5d473900976d0a7df4998b822d5a8747f03eaad6eb7629c588cc4e8880ab896795e8cfa2254ce890a0df2eb0a",
+          "sha256": "81bfbafda89e5bf39f76e73624701e821f1640c667fa4c1b7323f4847cb4417b",
+          "sha1": "985e47afe67f10b1c336f694f396b72b9ad420c4",
+          "md5": "0cc46f68a81030dd1f40022cedf56e45"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "VunnyAPI-1.0.0-all.jar",
+          "url": "VunnyAPI-1.0.0-all.jar",
+          "size": 17943325,
+          "sha512": "b71cb7910228d24ce9756d6d4a268bcf2ef81d5e3cadb1cb8fb10a030957f45359ec9f85bd9782149f2f71c7871fec4d5cc9347abc40a819c808854349cc2821",
+          "sha256": "9f5bb7448681a5c8c320d3277f7b140d167c11560c900d9c815241350b801024",
+          "sha1": "8d52c72a4baaddfcc526faf60a887e1da5ac6d4b",
+          "md5": "00c01d6758bb3ef703d60fabb911c4a1"
+        }
+      ]
+    }
+  ]
+}

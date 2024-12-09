@@ -1,0 +1,79 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.sobixn.core",
+    "module": "vunny-core",
+    "version": "1.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "vunny-core-1.0-SNAPSHOT-dev.jar",
+          "url": "vunny-core-1.0-SNAPSHOT-dev.jar",
+          "size": 1781,
+          "sha512": "9b8b72b0fc61f3bae2556f03fd2fe1215d8572c19d59d31bacb57086726129f497268063fa71bbe1155cdd1718369bc50f6e2035c545a9d5d954796388ea28e2",
+          "sha256": "9d6f077f2f979c6a6cf2f75d397f9f9c95e939afcb585a6563da80365a547029",
+          "sha1": "2f723b12b26d9890c529dfafc7b83a0cfe5a6e4f",
+          "md5": "1c6dc7de93dd657c701d7308b6791d90"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8"
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "vunny-core-1.0-SNAPSHOT-dev.jar",
+          "url": "vunny-core-1.0-SNAPSHOT-dev.jar",
+          "size": 1781,
+          "sha512": "9b8b72b0fc61f3bae2556f03fd2fe1215d8572c19d59d31bacb57086726129f497268063fa71bbe1155cdd1718369bc50f6e2035c545a9d5d954796388ea28e2",
+          "sha256": "9d6f077f2f979c6a6cf2f75d397f9f9c95e939afcb585a6563da80365a547029",
+          "sha1": "2f723b12b26d9890c529dfafc7b83a0cfe5a6e4f",
+          "md5": "1c6dc7de93dd657c701d7308b6791d90"
+        }
+      ]
+    }
+  ]
+}

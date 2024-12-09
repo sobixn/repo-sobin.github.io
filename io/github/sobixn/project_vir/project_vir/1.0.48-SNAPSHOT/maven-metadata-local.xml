@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>io.github.sobixn.project_vir</groupId>
+  <artifactId>project_vir</artifactId>
+  <versioning>
+    <lastUpdated>20241207070938</lastUpdated>
+    <snapshot>
+      <localCopy>true</localCopy>
+    </snapshot>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>1.0.48-SNAPSHOT</value>
+        <updated>20241207070938</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>1.0.48-SNAPSHOT</value>
+        <updated>20241207070938</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.0.48-SNAPSHOT</value>
+        <updated>20241207070938</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+  <version>1.0.48-SNAPSHOT</version>
+</metadata>
